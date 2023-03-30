@@ -1,0 +1,66 @@
+.button-one 
+{ 
+  width: 100px;
+  padding: 10px;
+  background-color: #da4ea2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button-two 
+{ 
+  width: 100px;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  margin-right: 10px;
+  margin-left: 610px;
+color: pink;
+
+
+}
+
+.button-three
+{ 
+  width: 100px;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: fixed;
+  top: 0;
+  margin-right: 10px;
+  margin-left: 700px;
+  color: pink;
+
+
+}
+.wb
+{
+  color: #da4ea2;
+  font-size: 20px;
+
+}
+.input
+{
+  
+  box-sizing: border-box;
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+}
+.fieldset {
+  width: 300px;
+  height: 40px;
+}
