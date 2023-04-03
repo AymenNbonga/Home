@@ -164,9 +164,32 @@ function Home (){
 {analysisResults && (
   <div>
     <h2>Performance Analysis</h2>
+    <ul>
+            <li>
+              <strong>First Contentful Paint:</strong>{" "}
+              {analysisResults.audits["first-contentful-paint"].displayValue}
+            </li>
+            <li>
+              <strong>Speed Index:</strong>{" "}
+              {analysisResults.audits["speed-index"].displayValue}
+            </li>
+            <li>
+              <strong>Total Blocking Time:</strong>{" "}
+              {analysisResults.audits["total-blocking-time"].displayValue}
+            </li>
+            <li>
+              <strong>Largest Contentful Paint:</strong>{" "}
+              {analysisResults.audits["largest-contentful-paint"].displayValue}
+            </li>
+            <li>
+              <strong>Cumulative Layout Shift:</strong>{" "}
+              {analysisResults.audits["cumulative-layout-shift"].displayValue}
+            </li>
+          </ul>
     
   </div>
 )}
+
 
         </Left>
         
